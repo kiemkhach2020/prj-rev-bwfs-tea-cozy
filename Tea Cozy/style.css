@@ -1,0 +1,164 @@
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    
+    flex-wrap: wrap;
+    
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+ }
+
+/* Header */
+
+header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+header #logo {
+    float: left;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+header nav {
+    float: right;
+}
+
+header ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: seashell;
+    text-decoration: underline;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+nav li a:hover {
+    color: seashell;
+    font-weight: bold;
+}
+
+
+/* mission */
+
+#mission {
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg) no-repeat center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission .container {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    
+}
+
+
+/* feature */
+
+#featured {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+    
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box img {
+    height: 200px;
+    width: 300px;
+    
+}
+
+.box span {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+/* location */
+
+#locations {
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg) no-repeat center;
+    height: 500px;
+    margin: auto;
+    width: 1200px;
+    display: flex;
+}
+
+#locations .item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.item .location {
+    opacity: 1.0;
+    background-color: black;
+    flex-basis: 280px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* contact */
+
+#contact {
+    height: 200px;
+}
+
+
+
+/* footer */
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+    margin: auto;
+}
